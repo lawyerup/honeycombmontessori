@@ -648,6 +648,7 @@ header
 
 @media (max-width: 1397px) {
   .background-header .main-nav .nav {
+    
     margin-top: 80px !important;
   }
   .header-area .main-nav .logo {
@@ -662,7 +663,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #4fa6c9;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -1079,7 +1080,7 @@ About
 
 .about-us {
   margin-top: 0px;
-  padding-top: 130px;
+  padding-top: 100px;
 }
 
 .about-us .left-image {
@@ -1088,6 +1089,7 @@ About
 
 .about-us .section-heading h2 {
   margin-right: 60px;
+  padding-top: 30px;
 }
 
 .about-us .section-heading p {
@@ -1929,14 +1931,23 @@ responsive
     display: none;
   }
   .main-banner .item {
+    justify-content: center;
+    text-align: center;
     margin-right: 0px;
   }
   .main-banner  {
     padding-bottom: 0px;
   }
   .about-us .section-heading h2 {
+    text-align: center;
     margin-right: 0px;
   }
+
+  .about-us .section-heading p {
+    text-align: center;
+    margin-right: 0px;
+  }
+    
   .fact-item {
     text-align: center;
   }
@@ -2022,9 +2033,12 @@ responsive
     display: none;
   }
   .contact-us .info {
+    justify-content: center;
+    text-align: center;
     display: inline-block;
   }
   .contact-us .info span {
+    text-align: center;
     margin-bottom: 20px;
   }
 }
